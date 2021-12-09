@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+}
+
+label{
+    display: block;
+    padding: 1rem;
+}
+button{
+    cursor: pointer;
+    background-color: transparent;
+    color: #ADEFD1FF;
+    padding: 0.4rem;
+    border: 1px solid #ADEFD1FF;
+    border-radius: 1rem;
+}
+div{
+    margin-top: 1rem;
+}

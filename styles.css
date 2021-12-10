@@ -4,11 +4,19 @@ body{
     color: #ADEFD1FF;
 }
 
-label{
+.label{
     display: block;
-    padding: 1rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
 }
-button{
+
+.input{
+    border: 1rem solid;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.btn{
     cursor: pointer;
     background-color: transparent;
     color: #ADEFD1FF;
@@ -16,8 +24,9 @@ button{
     border: 1px solid #ADEFD1FF;
     border-radius: 1rem;
 }
-div{
+.outputDiv{
     margin-top: 1rem;
+    height: 60px;
 }
 
 .footer ul {

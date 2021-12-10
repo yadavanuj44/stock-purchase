@@ -19,3 +19,24 @@ button{
 div{
     margin-top: 1rem;
 }
+
+.footer ul {
+    padding-inline-start: 0rem;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0.5rem
+}
+.container-footer{
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+}

@@ -12,11 +12,11 @@ function submitHandler(){
     var qty = Number(stocksQuantity.value);
     var curr = Number(currentPrice.value);
 
-    calculate(ip, qty, curr);
     }
     else {
         output.innerHTML = "Enter all the inputs";
     }
+    calculate(ip, qty, curr);
 }
 
 function calculate(initial, quantity, current){

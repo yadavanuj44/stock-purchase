@@ -19,12 +19,12 @@ function calculate(initial, quantity, current){
     if(initial > current){
         var loss = (initial - current)*quantity;
         var lossPercentage = (loss/initial)*100;
-        output.innerHTML = "Loss. you have lost " + loss + " and your profit percent is " + lossPercentage + "%";
+        output.innerHTML = "Loss. you have lost " + loss + " and your loss percent is " + lossPercentage + "%";
     }
     else if(current > initial){
         var profit = (current - initial)*quantity;
         var profitPercentage = (profit/initial)*100;
-        output.innerHTML = "Profit. you have got " + profit + " and your profit percent is " + profitPercentage + "%";
+        output.innerHTML = "Profit. you have earned " + profit + " and your profit percent is " + profitPercentage + "%";
     }
     else{
         output.innerHTML = "No pain no gain, and No gain no pain"

@@ -7,15 +7,11 @@ const output = document.querySelector("#output");
 submitBtn.addEventListener("click", submitHandler);
 
 function submitHandler(){
-    if(initialPrice.value && stockQuantity.value && currentPrice.value){
+  
     var ip = Number(initialPrice.value);
     var qty = Number(stocksQuantity.value);
     var curr = Number(currentPrice.value);
 
-    }
-    else {
-        output.innerHTML = "Enter all the inputs";
-    }
     calculate(ip, qty, curr);
 }
 
